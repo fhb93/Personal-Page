@@ -8,7 +8,8 @@ h1{font: 400 40px/58px 'Charlemagne STD', Charlemagne, serif; color:#F9F9FA;}
 h2{font: 400 25px/22px 'Times New Roman', Georgia, serif; color:#F9F9FA;}
 h3{font: 400 14px/16px 'Charlemagne STD', Georgia, serif; color:#F9F9FA;}
 ul{margin:0px; padding:0px;}
-a {text-decoration:none; color:#6a6969;}
+a {text-decoration:none; text-shadow: 25px; color:#FFFFFF;}
+
 a:hover {color:#979797;}
 a img{border:0px;}
 
@@ -110,7 +111,7 @@ a img{border:0px;}
 /****************************************************/
 /* WORK SECTION */
 /****************************************************/
-/*
+
 #work{margin:0px 43px; padding-top:115px;}
 #work .content{overflow:auto;}
 #work #work-thumbs li{
@@ -120,7 +121,7 @@ a img{border:0px;}
 	padding:0px;
 }
 #work #work-thumbs li.last{margin:0px;}
-*/
+
 /****************************************************/
 /* CONNECT SECTION */
 /****************************************************/
@@ -208,5 +209,15 @@ a img{border:0px;}
 	height:9px;
 	clear:both;
 }
+
+.div-projects {
+    -webkit-column-count: 2; /* Chrome, Safari, Opera */
+    -moz-column-count: 2; /* Firefox */
+    column-count: 2;
+	-webkit-column-rule-style: solid; /* Chrome, Safari, Opera */
+    -moz-column-rule-style: solid; /* Firefox */
+    column-rule-style: solid;
+}
+
 .top-divider{margin-bottom:20px;}
 .bottom-divider{margin-top:20px;}
