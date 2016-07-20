@@ -27,13 +27,14 @@ a img{border:0px;}
 
 #header{
 	width:864px;
-	height:115px;
+	height:115px;  
 	background-color:#222222;
-	padding:0px 43px;
+	padding:20px 43px 0px 43px;
 	position: fixed;
 	top:0px;
 	left:50%;
 	margin: 0 0 0 -475px;
+	align-content: middle;
 }
 #header #logo{
 	padding-top:5px;
@@ -190,7 +191,7 @@ a img{border:0px;}
 	height:16px;
 	margin-right:10px;
 }
-#contact #social-footer #sm-links li a.facebook{height:16px; width:16px;background:url(icon-1.png) no-repeat;}
+#contact #social-footer #sm-links li a.facebook{ height:16px; width:16px;background:url(icon-1.png) no-repeat;}
 #contact #social-footer #sm-links li a.github{height:16px; width:16px; background:url(icon-2.png) no-repeat; }
 /*
 #connect #social-footer #sm-links li a.twitter{background:url(images/sm-twitter-icon.png) no-repeat; width:31px;}
